@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist santacord/yii2-flexslider "*"
+php composer.phar require --prefer-dist santacord/yii2-flexslider:dev-master
 ```
 
 or add
 
 ```
-"santacord/yii2-flexslider": "*"
+"santacord/yii2-flexslider": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \santacord\flexslider\AutoloadExample::widget(); ?>```
+<?= \santacord\flexslider\FlexSlider::widget(); ?>```
